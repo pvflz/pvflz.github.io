@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+## 个人信息
+#### 姓名：毛励芝
+#### 学历：本科在读
+#### 学校：浙江万里学院
+#### 外语：CET-4
+#### 邮箱：pvflz@qq.com
+#### 手机：13665819335
+#### 地址：浙江省宁波市鄞州区钱湖南路8号浙江万里学院
+#### 工作经验：暂无
 
-You can use the [editor on GitHub](https://github.com/pvflz/pvflz.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## 求职意向
+<p>工作性质：实习</p>
+<p>期望岗位：java后端开发实习生</p>
+<p>工作地区：宁波</p>
+<p>期望月薪：3000+</p>
+<p>到岗时间：2020年9月</p>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 专业技能
+1. 熟悉Java语言编程，服务器开发方向；
+2. 熟悉的Web服务器：Tomcat；
+3. 熟悉的开发工具：Eclipse、IDEA、Maven；
+4. 熟悉的版本控制工具：Git、Svn；
+5. 熟悉JavaWeb编程、SSM三大框架开发、Springboot；
+6. 熟悉Mysql数据库、了解Oracle数据库；
+7. 熟悉前后端分离开发模式，具备接口文档编写能力
 
-### Markdown
+## 自我评价
+1. 具备团队合作精神，乐于沟通。为人正直诚实，有责任心，能够承受一定的工作压力；
+2. 对工作尽职尽责，乐于接受挑战性的工作，有理想有追求
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 项目经历01
+<p>时间：2020/04 -- 2020/05 </p>
+<p>项目：特产地图1.0  </p>
+<p>开发环境：jdk 1.8、Mysql 5.1</p>
+<p>开发工具：IDEA</p>
+<p>项目职责：</p>
+<p>1、参与项目的功能分析和设计讨论，负责用户管理和特产数据管理模块的需求分析、数据库设计、接口文档编写和编码工作。</p>
+<p>2、根据需求的业务进行开发，代码编写，代码测试，实现功能。</p>
+<p>3、参与前后端交互测试，针对发现的问题形成反馈报告并修改调整。</p>
+<p>项目描述：</p>
+<p>用户系统（移动端）：能在地图上所定位的地区显示特产，也能够以列表形式查询特产。</p>
+<p>管理系统（PC端）：管理员能够在管理系统内进行特产数据管理和用户权限管理。</p>
+<p>项目采用前后端分离的开发模式，采用Http协议，采用Json的数据格式，后端提供restful分格接口，选用Springboot框架，持久层选择Hibernate的JPA技术，继承JpaRepository接口。特产地图1.0项目保存在了自己创建的svn仓库中，以便后续2.0系统的开发。</p>
+<p>主要实现功能：</p>
+<p>用户能够通过手机app在地图上查看宁波各地区的特产，或通过搜索特产的方式定位到特产所在的地区；管理员能够便捷的在管理系统内对用户数据和特产数据进行操作。</p>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pvflz/pvflz.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## 项目经历02
+<p>时间：2020/05 -- 2020/06 </p>
+<p>项目：基于Ecarts的长江流域湖北省核算信息显示平台1.0</p>  
+<p>开发环境：jdk1.8 + Mysql5.1</p>
+<p>开发工具：IDEA</p>
+<p>项目职责：</p>
+<p>1、参与项目的功能分析和设计讨论，负责用户管理和特产数据管理模块的需求分析、数据库设计、接口文档编写和编码工作。</p>
+<p>2、根据需求的业务进行开发，代码编写，代码测试，实现功能。</p>
+<p>3、参与前后端交互测试，针对发现的问题形成反馈报告并修改调整。</p>
+<p>项目描述：</p>
+<p>该项目仅有一个后台系统：管理员能够在后台系统内进行数据的上传、下载、修改、删除和查询。</p>
+<p>项目采用前后端分离的开发模式，采用Http协议，采用Json的数据格式，后端提供restful分格接口，选用Springboot框架，用户管理的持久层选择Hibernate的JPA技术，继承JpaRepository接口，数据管理的持久层选择继承mybatis-plus的BaseMapper。选择alibaba的easyexcel来实现项目的数据模板下载功能，同时还配备了logback日志。平台1.0提交到了git版本库中，以便后续2.0平台的开发。</p>
+<p>主要实现功能：</p>
+<p>在管理系统内直接上传Excel文件即可将数据保存至数据库；实现数据的动态修改，在管理员界面修改数据，修改结果在数据库内同样生效；提供数据模板的下载，为数据录入人员省去更多的步骤；提供数据删除功能，从数据上传记录中选择删除即可删除相应的数据；同时平台还提供数据录查询功能，通过选择年份、地点和数据类型来显示数据，可以是分量也可以是总量（每年的GEP变化柱状图或连线图；每年的单项指标变化柱状图或连线图；每年三部分数据组成比例的饼状图；显示在地图上的空间上比较图）。</p>
